@@ -13,3 +13,13 @@ Three important things:
 
 
 In mask detector instaed of using convolution we are using mobility nets as a base part of the network.
+
+
+
+
+for face detction readnet uses:
+single shot multiobject detector which uses resnet 10 as a architecture
+
+for mask detection we use:
+mobilenetsv2 because they are also a good feature extraction nets avilable in the market but lot faster than any other cnn available  as they store less parametres which deceraese in parameters , there is decrease in computational power, faster the process
+inputs--> mobilenetv2-->max pool-->fully connected NN-->OUTPUT
